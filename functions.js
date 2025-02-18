@@ -12,22 +12,22 @@
 // // function decleartion
 // function gpa(marks){
  
-//     let gpa;
-//     if(marks >= 0 && marks < 32 ){
-//         gpa = 0;
-//     }else if(marks >= 33 && marks < 40 ){
-//         gpa = 1;
-//     }else if(marks >= 40 && marks < 50 ){
-//         gpa = 2;
-//     }else if(marks >= 50 && marks < 60 ){
-//         gpa = 3;
-//     }else if(marks >= 60 && marks < 70 ){
-//         gpa = 3.5;
-//     }else if(marks >= 70 && marks < 80 ){
-//         gpa = 4;
-//     }else if(marks >= 80 && marks <= 100 ){
-//         gpa = 5;
-//     }
+    // let gpa;
+    // if(marks >= 0 && marks < 32 ){
+    //     gpa = 0;
+    // }else if(marks >= 33 && marks < 40 ){
+    //     gpa = 1;
+    // }else if(marks >= 40 && marks < 50 ){
+    //     gpa = 2;
+    // }else if(marks >= 50 && marks < 60 ){
+    //     gpa = 3;
+    // }else if(marks >= 60 && marks < 70 ){
+    //     gpa = 3.5;
+    // }else if(marks >= 70 && marks < 80 ){
+    //     gpa = 4;
+    // }else if(marks >= 80 && marks <= 100 ){
+    //     gpa = 5;
+    // }
 //     return gpa;
 // }
 
@@ -148,3 +148,25 @@
 // .................................................//
 // let leaderFunctionCall = new Student();
 // console.log(leaderFunctionCall) ;.. nirdisto kore function ba var ke call korte caile . er pore var/ function ta ke call korte hobe 
+
+
+// class 5 assignment
+// function AgeCal(age){
+//     this.age = age;
+//     this.peopleAge = function(calAge){
+//         if(this.age >= 0 && this.age <= 12){
+//             return `You are now children`;
+//         }else if(this.age >= 13 && this.age <= 19){
+//             return `You are Teenager`;
+//         }else if(this.age >= 20 && this.age <= 59){
+//             return `You are young people`;
+//         }else if(this.age >= 60){
+//             return `You are old people`;
+//         }else{
+//             return `invalid age`;
+//         }
+//     }
+// }
+// const userAge = Number(prompt(`Enter you'r age`));
+// const ageCal = new AgeCal(userAge);
+// alert(ageCal.peopleAge());
