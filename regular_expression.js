@@ -42,3 +42,6 @@
 // let pattern = /^h[a-z]q$/i;
 
 // console.log(pattern.test(txt));
+
+
+// regular expression is very hard..😩
