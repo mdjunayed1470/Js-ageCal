@@ -105,8 +105,8 @@ flower.splice(3 ,1, 'surjo mukhi');
 // console.log(flower); 
 
 //.......................//
-// let arr1 = [1, 2, 3];
-// let arr2 = [4, 5, 6];
+// const arr1 = [1, 2, 3];
+// consot arr2 = [4, 5, 6];
 
 // let result = arr1.concat(arr2);
 // console.log(result); concat() হলো JavaScript-এর একটি মেথড, যা দুটি বা তার বেশি array বা string একসাথে যোগ (concatenate) করতে ব্যবহৃত হয়। এটি নতুন array বা string তৈরি করে এবং মূল মান পরিবর্তন করে না।

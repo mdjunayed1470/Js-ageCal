@@ -166,7 +166,10 @@
 //             return `invalid age`;
 //         }
 //     }
-// }
+// } 
 // const userAge = Number(prompt(`Enter you'r age`));
 // const ageCal = new AgeCal(userAge);
 // alert(ageCal.peopleAge());
+
+
+// **************************//
